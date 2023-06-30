@@ -1,0 +1,29 @@
+.header{
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 90px;
+    display: none;
+}
+.myicon{
+    border: 2px solid white;
+    display: grid;
+    place-items: center;
+}
+.myimg{
+    background: url(logo3.png);
+    background-size: 100% 100%;
+    border: 2 px solid red;
+}
+.myicon2{
+    border: 2px solid blue;
+    display: grid;
+    place-items: center;
+}
+
+@media(max-width:1000px)
+{
+    .header{
+        display: grid;
+    }
+}
